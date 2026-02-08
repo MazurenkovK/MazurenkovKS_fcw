@@ -15,9 +15,9 @@ pressure_gauge/
 ├── app/
 │   ├── main.py
     │
-    ├── main_order.py           # для отчета         
+    ├── main_order.py                  # для отчета         
 │   │
-│   ├── core/                   # базовые абстракции и интерфейсы
+│   ├── core/                   
 │   │   └── pipeline.py
 │   │   
 │   ├── detectors/
@@ -33,7 +33,7 @@ pressure_gauge/
 │   ├── geometry/
 │   │   └── geometry.py
 │   │
-│   ├── image_test/                 # для демонстрации системы MVP
+│   ├── image_test/                    # для демонстрации системы MVP
 │   │   ├── test.jpg
 │   │   ├── ...
 │   │   └── test8.jpg
@@ -42,7 +42,7 @@ pressure_gauge/
 # │   │   ├── factory.py
 # │   │   └── observer.py
 │   │
-│   ├── order_test/                 # для отчета  
+│   ├── order_test/                     # для отчета  
 │   │   ├── IMG_20251111_085523_9.jpg
 │   │   ├── ...
 │   │   └── IMG_20251116_092501_2.jpg
