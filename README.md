@@ -14,8 +14,8 @@ pressure_gauge/
 │
 ├── app/
 │   ├── main.py
-    │
-    ├── main_order.py                  # для отчета         
+│   │
+│   ├── main_order.py                  # для отчета         
 │   │
 │   ├── core/                   
 │   │   └── pipeline.py
