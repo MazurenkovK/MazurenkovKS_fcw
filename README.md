@@ -1,4 +1,4 @@
-# MazurenkovKS_fcw
+# MazurenkovKS_mproject_v1.0
 My master's project
 
 Проект магистерской работы студента ТГУ по программе "Компьютерное зрение и нейронные сети". 
