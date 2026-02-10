@@ -63,7 +63,29 @@ pressure_gauge/
 │   ├── component_diagram.puml
 │   └── deployment_diagram.puml
 │
+├── demo/
+│
 ├── requirements.txt
 ├── README.md
+│   
+├── install/
+│   └── README.md
+│
 └── .gitignore
 ```
+
+*Демонстрация MVP с угловым методом:*
+![Угловой метод](demo/angular_method.gif)
+
+*Разметка для классификации шкалы (минимум и максимум):*
+![Разметка шкалы](demo/scale_bb.png)
+
+*Сегментация стрелки манометра:*
+![Разметка стрелки](demo/needle_seg.png)
+
+*Метрики MVP:*
+![Метрики MVP](demo/metrics_mvp.png)
+
+*Видеоряд со стенда:*
+
+![Стенд](demo/stand.gif)

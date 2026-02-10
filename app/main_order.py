@@ -6,14 +6,14 @@ import time
 
 from core.pipeline import PressurePipeline
 
-IMG_DIR = "/Users/konstantinmazurenkov/MazurenkovKS_fcw/MazurenkovKS_fcw/app/order_test"
+IMG_DIR = "app/order_test"
 CSV_PATH = os.path.join(IMG_DIR, "img_27.csv")
 
 EXTS = (".jpg", ".jpeg", ".png")
 
 pipeline = PressurePipeline(
-    gauge_model_path="/Users/konstantinmazurenkov/MazurenkovKS_fcw/MazurenkovKS_fcw/app/models/best_gauge.pt",
-    seg_model_path="/Users/konstantinmazurenkov/MazurenkovKS_fcw/MazurenkovKS_fcw/app/models/best_seg.pt",
+    gauge_model_path="app/models/best_gauge.pt",
+    seg_model_path="app/models/best_seg.pt",
     pressure_max=4
 )
 
