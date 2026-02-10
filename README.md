@@ -65,6 +65,7 @@ pressure_gauge/
 │
 ├── demo/
 │
+├── LICENSE
 ├── requirements.txt
 ├── README.md
 │   
@@ -74,18 +75,67 @@ pressure_gauge/
 └── .gitignore
 ```
 
-*Демонстрация MVP с угловым методом:*
+## Демонстрация MVP с угловым методом:
 ![Угловой метод](demo/angular_method.gif)
 
-*Разметка для классификации шкалы (минимум и максимум):*
+## Разметка для классификации шкалы (минимум и максимум):
 ![Разметка шкалы](demo/scale_bb.png)
 
-*Сегментация стрелки манометра:*
+## Сегментация стрелки манометра:
 ![Разметка стрелки](demo/needle_seg.png)
 
-*Метрики MVP:*
+## Метрики MVP:
 ![Метрики MVP](demo/metrics_mvp.png)
 
-*Видеоряд со стенда:*
+## Видеоряд со стенда:
 
 ![Стенд](demo/stand.gif)
+
+## Requirements:
+```certifi==2026.1.4
+charset-normalizer==3.4.4
+contourpy==1.3.2
+cycler==0.12.1
+filelock==3.20.2
+fonttools==4.61.1
+fsspec==2025.12.0
+idna==3.11
+Jinja2==3.1.6
+kiwisolver==1.4.9
+MarkupSafe==3.0.3
+matplotlib==3.10.8
+mpmath==1.3.0
+networkx==3.4.2
+numpy==1.26.4
+opencv-python==4.11.0.86
+packaging==25.0
+pandas==2.3.3
+pillow==12.1.0
+psutil==7.2.1
+py-cpuinfo==9.0.0
+pyparsing==3.3.1
+pytesseract==0.3.13
+python-dateutil==2.9.0.post0
+pytz==2025.2
+PyYAML==6.0.3
+requests==2.32.5
+scipy==1.15.3
+seaborn==0.13.2
+six==1.17.0
+sympy==1.14.0
+thop==0.1.1.post2209072238
+torch==2.1.2
+torchvision==0.16.2
+tqdm==4.67.1
+typing_extensions==4.15.0
+tzdata==2025.3
+ultralytics==8.0.224
+urllib3==2.6.3
+```
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+### Ссылка на отчет: 
+### ссылка на презентацию:

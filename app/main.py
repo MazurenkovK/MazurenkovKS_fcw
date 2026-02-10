@@ -35,3 +35,8 @@ for fname in files:
     except Exception as e:
         print(f"[ERR] {fname} → {e}")
 
+"""
+Analog Gauge Reader Pipeline
+Copyright (c) 2026 Konstantin Mazurenkov
+Licensed under MIT License
+"""
