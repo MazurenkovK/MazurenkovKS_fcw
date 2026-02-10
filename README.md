@@ -137,5 +137,5 @@ urllib3==2.6.3
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-### Ссылка на отчет: 
-### ссылка на презентацию:
+### Отчет: docs/project report.docx
+### Презентация: docs/presentation.pptx
