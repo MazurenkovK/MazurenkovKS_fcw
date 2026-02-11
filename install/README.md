@@ -19,12 +19,11 @@
 
 * Windows  
 `import pytesseract
-pytesseract.pytesseract.tesseract_cmd = \    
-    r"C:\Program Files\Tesseract-OCR\tesseract.exe"`
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"`
 
 ### Клонирование репозитория:  
-`git clone https://github.com/MazurenkovK/MazurenkovKS_mproject_v1.0.git`  
-`cd MazurenkovKS_mproject_v1.0.git`
+`git clone https://github.com/MazurenkovK/pressure_gauge_mproject_v1.0.git`  
+`cd pressure_gauge_mproject_v1.0`
 
 ### Создание виртуального окружения 
 * macOS / Linux  
