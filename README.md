@@ -53,10 +53,8 @@ pressure_gauge/
 # ├── tests/
 │
 ├── docs/
-│   ├── План проекта.md
-│   ├── Введение.md
-│   ├── Черновик.md
-│   └── Список литературы.md
+│   ├── presentation.pptx
+│   └── project report.docx
 │
 ├── diagrams/
 │   ├── use_case_diagram.puml
@@ -64,14 +62,15 @@ pressure_gauge/
 │   └── deployment_diagram.puml
 │
 ├── demo/
+│   └── demo files
 │
-├── LICENSE
-├── requirements.txt
-├── README.md
-│   
 ├── install/
-│   └── README.md
+│   └── README.md│
 │
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+├── requirements.txt
 └── .gitignore
 ```
 
