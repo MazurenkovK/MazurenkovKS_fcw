@@ -25,9 +25,9 @@ print("MobileNet loaded successfully")
 
 
 pipeline = PressurePipeline(
-    gauge_model_path=os.path.join(
+    scale_model_path=os.path.join(
         MODEL_DIR,
-        "best_gauge.pt"
+        "best_scale.pt"
     ),
     seg_model_path=os.path.join(
         MODEL_DIR,

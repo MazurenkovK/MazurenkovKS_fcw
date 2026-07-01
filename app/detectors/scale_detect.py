@@ -4,7 +4,7 @@ from ultralytics import YOLO
 import cv2
 
 
-class GaugeYOLO:
+class ScaleYOLO:
     def __init__(self, model_path, conf=0.3, imgsz=(480, 480)):
         self.model = YOLO(model_path)
         self.conf = conf

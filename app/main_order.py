@@ -13,7 +13,7 @@ CSV_PATH = os.path.join(IMG_DIR, "test_labels_with_classes.csv")
 EXTS = (".jpg", ".jpeg", ".png")
 
 pipeline = PressurePipeline(
-    gauge_model_path="app/models/best_gauge.pt",
+    scale_model_path="app/models/best_scale.pt",
     seg_model_path="app/models/best_seg.pt",
     pressure_max=4
 )
@@ -90,7 +90,7 @@ for fname in files:
             print(f"[OK] {fname} → PRED={pred:.2f} | TRUE={true:.2f} | latency={latency_ms:.1f} ms")
         else:
             # Если pred is None, просто выводим сообщение и пропускаем добавление в списки
-            print(f"[SKIP] {fname} → Prediction is None (e.g., gauge not found)")
+            print(f"[SKIP] {fname} → Prediction is None (e.g., scale not found)")
         # --- ИСПРАВЛЕНИЕ ЗАКАНЧИВАЕТСЯ ЗДЕСЬ ---
 
     except Exception as e:

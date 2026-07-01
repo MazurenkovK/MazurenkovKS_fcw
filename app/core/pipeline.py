@@ -2,7 +2,7 @@
 import numpy as np
 
 from detectors.meter_detector import MeterDetector
-from detectors.yolo_detect import GaugeYOLO
+from detectors.scale_detect import ScaleYOLO
 from segmenters.needle_seg import NeedleSegmenter
 from geometry.geometry import angle_from_minimum, normalize_angle
 from ocr.scale_ocr import ScaleOCR
@@ -13,13 +13,13 @@ import numpy as np
 class PressurePipeline:
     def __init__(
         self,
-        gauge_model_path,
+        scale_model_path,
         seg_model_path,
         pressure_min=0.0,
         pressure_max=6.0
     ):
         self.meter = MeterDetector()
-        self.gauge = GaugeYOLO(gauge_model_path)
+        self.scale = ScaleYOLO(scale_model_path)
         self.needle = NeedleSegmenter(seg_model_path)
         self.ocr = ScaleOCR(debug=False)
 
@@ -33,7 +33,7 @@ class PressurePipeline:
             raise RuntimeError("Meter not found")
 
         # шаг 2 — scale
-        minimum, maximum, img_yolo = self.gauge.detect_scale(cropped)
+        minimum, maximum, img_yolo = self.scale.detect_scale(cropped)
         if minimum is None or maximum is None:
             raise RuntimeError("Scale not detected")
         
